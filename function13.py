@@ -9,7 +9,7 @@ def get_todos(filepath=FILEPATH):
 
 
 def store_todos(todos_arg, filepath=FILEPATH):
-    """This is for writing the new to the list"""
+    """This is for writing the new to the list."""
     # Get Current todos
 
     with open(filepath, "w") as file:
